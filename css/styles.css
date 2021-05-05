@@ -128,3 +128,71 @@ header {
 	right: -10px;
 	font-weight: 700;
 }
+
+.header__account {
+	display: flex;
+}
+
+.header__actions {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header__user-img {
+	border-radius: 50%;
+	height: 35px;
+	width: 35px;
+	margin-right: 10px;
+}
+
+.header__user-name {
+	font-size: 0.9rem;
+	font-weight: 500;
+	margin-right: 20px;
+}
+
+.header__circle-link {
+	background: var(--button-link);
+	height: 40px;
+	width: 40px;
+	display: flex;
+	border-radius: 50%;
+	color: var(--dark-color-text);
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+.header__circle-link .fa-sort-down {
+	position: relative;
+	top: -3px;
+	font-size: 1.4rem;
+}
+
+.header__link-icon {
+	font-size: 0.9rem;
+}
+
+.header__circle-link .fas,
+.header__circle-link .fab {
+	position: relative;
+}
+
+.header__link-bubble {
+	font-family: Arial, Helvetica, sans-serif;
+	background: var(--fb-red);
+	color: var(--fb-white);
+	width: 20px;
+	height: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	position: absolute;
+	top: -18px;
+	right: -17px;
+	font-weight: 700;
+	font-size: 0.8rem;
+}
