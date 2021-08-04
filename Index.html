@@ -18,6 +18,9 @@
 				<div class="header__logo-search">
 					<i class="fas fa-search"></i> <input type="text" />
 				</div>
+				<div class="header__mobile-button">
+					<i class="fas fa-bars"></i>
+				</div>
 			</div>
 			<div class="header__menu-tabs">
 				<div class="header__menu-tab header__menu-tab--active">
@@ -138,7 +141,7 @@
 				<div class="sidenav__item">
 					<img
 						src="https://code.org/shared/images/social-media/codeorg2020_social.png"
-						alt="User Picture"
+						alt="Error"
 						class="sidenav__item-img"
 					/>
 					<span class="sidenav__item-title"> The Local Coders</span>
@@ -242,18 +245,19 @@
 							alt="Userimage"
 							class="newpost__user-img"
 						/>
-						<input type="text" placeholder="What's on your mind, John" />
+						<input type="text" placeholder="What's on your mind, John?" />
 					</div>
 					<div class="hline"></div>
 					<div class="post-types">
 						<div class="post-types__item">
-							<i class="fas fa-video"></i> Live Video
+							<i class="fas fa-video"></i> <span class="post-types__title">Live Video</span>
+						</div>
+						<div>
+						<class class="post-types__item">
+							<i class="fas fa-photo-video"></i> <span class="post-types__title">Photo Video</span>
 						</div>
 						<div class="post-types__item">
-							<i class="fas fa-photo-video"></i> Photo Video
-						</div>
-						<div class="post-types__item">
-							<i class="fas fa-laugh-beam"></i> Feeling/Activity
+							<i class="fas fa-laugh-beam"></i><span class="post-types__title">Feeling/Activity</span> 
 						</div>
 					</div>
 				</div>
@@ -280,8 +284,75 @@
 							alt="CLT Skyline"
 						/>
 					</div>
+					<div class="photopost__stats">
+						<div class="photopost__stats-emojis">
+							<div class="emoji-circle emoji-circle--blue">
+								<i class="fas fa-thumbs-up"></i>
+							</div>
+							<div class="emoji-circle emoji-circle--red">
+								<i class="fas fa-heart"></i>
+							</div>
+							<div class="emoji-circle emoji-circle--yellow">
+								<i class="fas fa-surprise"></i>
+							</div>
+							3.5K
+						</div>
+						<div class="photopost__status-share">78 comments 10 shares</div>
+					</div>
+					<div class="hline"></div>
+					<div class="photopost__actions">
+						<a href="#" class="photopost__link">
+							<i class="fas fa-thumbs-up"></i> Like
+						</a>
+						<a href="#" class="photopost__link">
+							<i class="fas fa-comment"></i> Comment
+						</a>
+						<a href="#" class="photopost__link">
+							<i class="fas fa-share"></i> Share
+						</a>
+					</div>
+					<div class="hline"></div>
 				</div>
 			</section>
+		</section>
+		<section class="floatingmsg">
+			<div class="floatingmsg__bubble">
+				<img
+					src="https://randomuser.me/api/portraits/men/26.jpg"
+					alt="Userimage"
+				/>
+				<div class="floatingmsg__notification">1</div>
+			</div>
+			<div class="floatingmsg__bubble">
+				<img
+					src="https://randomuser.me/api/portraits/women/11.jpg"
+					alt="Userimage"
+				/>
+				<div class="floatingmsg__notification">4</div>
+			</div>
+			<div class="floatingmsg__bubble">
+				<img
+					src="https://randomuser.me/api/portraits/women/71.jpg"
+					alt="Userimage"
+				/>
+			</div>
+			<div class="floatingmsg__bubble">
+				<img
+					src="https://randomuser.me/api/portraits/men/72.jpg"
+					alt="Userimage"
+				/>
+				<div class="floatingmsg__notification">2</div>
+			</div>
+			<div class="floatingmsg__bubble">
+				<img
+					src="https://randomuser.me/api/portraits/women/38.jpg"
+					alt="Userimage"
+				/>
+				<div class="floatingmsg__notification">1</div>
+			</div>
+			<div class="floatingmsg__bubble">
+				<i class="fas fa-edit"></i>
+			</div>
 		</section>
 	</body>
 </html>
